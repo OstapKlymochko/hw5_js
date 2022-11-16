@@ -1,8 +1,8 @@
 // - створити функцію яка обчислює та повертає площу прямокутника зі сторонами а і б
-function  per(a,b){
-    return 2*(a+b);
+function  rect_square(a,b){
+    return a*b;
 }
-console.log(per(5,6));
+console.log(rect_square(5,6));
 // - створити функцію яка обчислює та повертає площу кола з радіусом r
 function circle_square(r){
     return Math.PI*r**2;
